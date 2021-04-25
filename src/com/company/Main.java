@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         // write your code here
-
+/*
         Queue<Integer> queue = new ArrayDeque<Integer>();
         {
             queue.add(10);
@@ -34,7 +34,30 @@ public class Main {
 
         aq.enqueue(11);
 
-        System.out.println(Arrays.toString(aq.queueArray));
+        System.out.println(Arrays.toString(aq.queueArray));*/
+
+
+
+      StackQueue queue = new StackQueue();
+
+        queue.Enqueue(10);
+        queue.Enqueue(20);
+        queue.Enqueue(30);
+
+
+
+
+        int number1 =queue.Dequeue();
+        System.out.println(number1);
+
+        int number2 =  queue.Dequeue();
+
+        System.out.println(number2);
+
+        int number3 = queue.Dequeue();
+        System.out.println(number3);
+
+
 
 
 
